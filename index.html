@@ -6,7 +6,6 @@
     <title>FRC Comprehensive Guide 2026 | Enciclopedia de Ingeniería</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* VARIABLES DE DISEÑO */
         :root {
             --first-blue: #0066b3;
             --first-red: #ed1c24;
@@ -21,7 +20,6 @@
             --shadow-lg: 0 10px 25px rgba(0,0,0,0.1);
         }
 
-        /* RESET Y BASE */
         * { box-sizing: border-box; scroll-behavior: smooth; }
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
@@ -31,7 +29,6 @@
             line-height: 1.8;
         }
 
-        /* NAVEGACIÓN */
         nav {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
@@ -57,7 +54,6 @@
         }
         nav a:hover { background: var(--first-blue); color: white; }
 
-        /* HEADER */
         header {
             background: linear-gradient(135deg, var(--first-blue) 0%, #003366 100%);
             color: white;
@@ -69,7 +65,6 @@
         header h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); margin: 0; line-height: 1.1; }
         header p { font-size: 1.2rem; opacity: 0.9; max-width: 800px; margin: 20px auto; }
 
-        /* CONTENEDORES DE IMAGEN (PLACEHOLDERS) */
         .img-slot {
             width: 100%;
             height: 500px;
@@ -94,7 +89,6 @@
             font-size: 0.9rem;
         }
 
-        /* SECCIONES Y CONTENIDO */
         .container { max-width: 1200px; margin: auto; padding: 60px 25px; }
         section { margin-bottom: 120px; background: white; padding: 60px; border-radius: 30px; box-shadow: var(--shadow-sm); }
         
@@ -119,14 +113,12 @@
         .card h3 { color: var(--first-blue); margin-top: 0; font-size: 1.5rem; }
         .card i { font-size: 2.5rem; color: var(--first-red); margin-bottom: 20px; display: block; }
 
-        /* TABLAS TÉCNICAS */
         .table-wrapper { overflow-x: auto; margin: 40px 0; border-radius: 15px; border: 1px solid #ddd; }
         table { width: 100%; border-collapse: collapse; min-width: 800px; }
         th { background: var(--first-blue); color: white; padding: 20px; text-align: left; }
         td { padding: 18px; border-bottom: 1px solid #eee; font-size: 0.95rem; }
         tr:nth-child(even) { background: #fafafa; }
 
-        /* LÍNEA DE TIEMPO DEL MUNDIAL */
         .world-championship {
             background: linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.02));
             padding: 40px;
@@ -164,7 +156,6 @@
         .step:last-child::after { display: none; }
         .step-content h4 { margin: 0; font-size: 1.4rem; color: var(--first-red); }
 
-        /* REFERENCIAS */
         .references {
             background: #1a202c;
             color: #cbd5e0;
